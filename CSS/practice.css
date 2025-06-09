@@ -1,0 +1,59 @@
+html {
+  box-sizing: border-box;
+}
+body {
+  background-image: url(../background/blackback-candle.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+*, 
+*::after, 
+*::before{
+    box-sizing: inherit;
+    margin: 0;
+}
+h3 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.form1 {
+  width: 400px;
+  height: 439px;
+  background-color:transparent rgba(255,255,255,0.13);
+  color: #fff;
+  padding: 56px 35px 35px 35px;
+  border: 2px solid rgba(255,255,255,0.13);
+  border-radius: 10px;
+  box-shadow: 0 0 40px rgba(0,0,0,0.5);
+  backdrop-filter: blur(10px);
+  margin-top: 150px;
+}
+.Username {
+  padding-left: 20px;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.password {
+  padding-left: 20px;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+label {
+  display: block;
+}
+input {
+  width: 281px;
+  height: 32px;
+  border-radius: 10px;
+}
+.login {
+  margin-left: 20px;
+  padding-top : 20px;
+}
+input[type = submit]:hover {
+  cursor: pointer;
+}
